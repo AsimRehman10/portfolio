@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asim Rehman - Cross-Platform Mobile App Developer</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h2>Asim Rehman</h2>
+        </div>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#resume" class="nav-link">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-background">
+        <div class="floating-shapes">
+          <div class="shape shape-1"></div>
+          <div class="shape shape-2"></div>
+          <div class="shape shape-3"></div>
+          <div class="shape shape-4"></div>
+        </div>
+      </div>
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">
+              <span class="title-line">Hi, I'm</span>
+              <span class="title-line gradient-text">Asim Rehman</span>
+            </h1>
+            <h2 class="hero-subtitle">Cross-Platform Mobile App Developer</h2>
+            <p class="hero-description">
+              Passionate about building scalable, cross-platform mobile
+              applications with clean UI/UX. Specialized in Flutter and Firebase
+              to create high-performance apps that deliver exceptional user
+              experiences.
+            </p>
+            <div class="hero-buttons">
+              <a href="#contact" class="btn btn-primary">
+                <i class="fas fa-handshake"></i>
+                <span>Get In Touch</span>
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1LtGjur13ppwig_KHcgMccz3Kyp6NQ_mL/view?usp=drivesdk"
+                target="_blank"
+                class="btn btn-secondary"
+              >
+                <i class="fas fa-download"></i>
+                <span>Download CV</span>
+              </a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="code-window">
+              <div class="window-header">
+                <div class="window-controls">
+                  <span class="control red"></span>
+                  <span class="control yellow"></span>
+                  <span class="control green"></span>
+                </div>
+                <div class="window-title">flutter_app.dart</div>
+              </div>
+              <div class="code-content">
+                <div class="code-line">
+                  <span class="keyword">class</span>
+                  <span class="class-name">MyApp</span>
+                  <span class="keyword">extends</span>
+                  <span class="class-name">StatelessWidget</span> {
+                </div>
+                <div class="code-line indent">
+                  <span class="annotation">@override</span>
+                </div>
+                <div class="code-line indent">
+                  <span class="keyword">Widget</span>
+                  <span class="method">build</span>(<span class="parameter"
+                    >BuildContext</span
+                  >
+                  context) {
+                </div>
+                <div class="code-line indent-2">
+                  <span class="keyword">return</span>
+                  <span class="class-name">MaterialApp</span>(
+                </div>
+                <div class="code-line indent-3">
+                  <span class="property">title</span>:
+                  <span class="string">'Portfolio'</span>,
+                </div>
+                <div class="code-line indent-3">
+                  <span class="property">theme</span>:
+                  <span class="class-name">ThemeData</span>.<span class="method"
+                    >light</span
+                  >(),
+                </div>
+                <div class="code-line indent-3">
+                  <span class="property">home</span>:
+                  <span class="class-name">HomePage</span>(),
+                </div>
+                <div class="code-line indent-2">);</div>
+                <div class="code-line indent">}</div>
+                <div class="code-line">}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow">
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p class="about-description">
+              I'm a passionate Cross-Platform Mobile App Developer with
+              expertise in creating scalable applications that work seamlessly
+              across iOS and Android platforms. My journey in mobile development
+              is driven by a love for clean code, innovative solutions, and
+              user-centric design.
+            </p>
+            <p class="about-description">
+              With a strong foundation in Flutter and Firebase, I specialize in
+              building applications that not only look great but also perform
+              exceptionally well. I believe in creating apps that solve
+              real-world problems while providing an intuitive and engaging user
+              experience.
+            </p>
+            <div class="stats">
+              <div class="stat-item">
+                <div class="stat-number">2+</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">10+</div>
+                <div class="stat-label">Projects Completed</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Client Satisfaction</div>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <div class="image-container">
+              <div class="image-placeholder">
+                <i class="fas fa-user-tie"></i>
+              </div>
+              <div class="image-decoration"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="project-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">SchoolSpark</h3>
+              <p class="project-description">
+                A comprehensive Flutter + Firebase application connecting
+                education departments with volunteers. Features real-time
+                communication, volunteer management, and educational resource
+                sharing with intuitive UI/UX design.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">Firebase</span>
+                <span class="tech-tag">Real-time</span>
+                <span class="tech-tag">UI/UX</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="#" class="project-link">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="project-icon">
+                <i class="fas fa-dna"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">
+                DNA Sample Collection & Management System
+              </h3>
+              <p class="project-description">
+                A sophisticated mobile application for managing and tracking DNA
+                samples using Firebase for data storage and authentication.
+                Includes sample tracking, user management, and comprehensive
+                reporting features.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Flutter</span>
+                <span class="tech-tag">Firebase</span>
+                <span class="tech-tag">Management</span>
+                <span class="tech-tag">Analytics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Skills & Technologies</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="skills-content">
+          <div class="skills-categories">
+            <div class="skill-category">
+              <h3 class="category-title">
+                <i class="fab fa-flutter"></i>
+                Mobile Development
+              </h3>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <i class="fab fa-flutter"></i>
+                  <span>Flutter</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fas fa-code"></i>
+                  <span>Dart</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-android"></i>
+                  <span>Android</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-apple"></i>
+                  <span>iOS</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3 class="category-title">
+                <i class="fas fa-fire"></i>
+                Backend & Database
+              </h3>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <i class="fas fa-fire"></i>
+                  <span>Firebase</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fas fa-plug"></i>
+                  <span>REST APIs</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fas fa-database"></i>
+                  <span>Database Design</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fas fa-cloud"></i>
+                  <span>Cloud Services</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-category">
+              <h3 class="category-title">
+                <i class="fas fa-tools"></i>
+                Tools & Design
+              </h3>
+              <div class="skill-items">
+                <div class="skill-item">
+                  <i class="fab fa-figma"></i>
+                  <span>Figma</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fas fa-palette"></i>
+                  <span>UI/UX Design</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fab fa-github"></i>
+                  <span>Git/GitHub</span>
+                </div>
+                <div class="skill-item">
+                  <i class="fas fa-rocket"></i>
+                  <span>App Deployment</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Resume</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="resume-content">
+          <div class="resume-card">
+            <div class="resume-header">
+              <h3>Professional Background</h3>
+              <a
+                href="https://drive.google.com/file/d/1LtGjur13ppwig_KHcgMccz3Kyp6NQ_mL/view?usp=drivesdk"
+                target="_blank"
+                class="download-btn"
+              >
+                <i class="fas fa-download"></i>
+                Download CV
+              </a>
+            </div>
+            <div class="resume-sections">
+              <div class="resume-section">
+                <h4 class="resume-section-title">
+                  <i class="fas fa-graduation-cap"></i>
+                  Education
+                </h4>
+                <div class="resume-item">
+                  <h5>Bachelor of Science in Computer Science</h5>
+                  <p>
+                    Comprehensive study of computer science fundamentals,
+                    software engineering, and mobile development.
+                  </p>
+                </div>
+                <div class="resume-item">
+                  <h5>Amal Academy Fellow</h5>
+                  <p>
+                    Professional development program focusing on leadership,
+                    communication, and career readiness.
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume-section">
+                <h4 class="resume-section-title">
+                  <i class="fas fa-briefcase"></i>
+                  Experience
+                </h4>
+                <div class="resume-item">
+                  <h5>Academic & Freelance Flutter Development</h5>
+                  <p>
+                    Developed multiple cross-platform mobile applications using
+                    Flutter and Firebase, focusing on user experience and
+                    performance optimization.
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume-section">
+                <h4 class="resume-section-title">
+                  <i class="fas fa-certificate"></i>
+                  Certifications
+                </h4>
+                <div class="certifications">
+                  <span class="cert-item">Digital Marketing</span>
+                  <span class="cert-item">Networking</span>
+                  <span class="cert-item">Computer Graphics</span>
+                  <span class="cert-item">App Development Workshop</span>
+                  <span class="cert-item">Flutter Development</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Let's Work Together</h3>
+            <p>
+              Ready to bring your mobile app idea to life? I'd love to hear
+              about your project and discuss how we can work together to create
+              something amazing.
+            </p>
+
+            <div class="contact-methods">
+              <a href="mailto:rehmanid0011@gmail.com" class="contact-method">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <p>rehmanid0011@gmail.com</p>
+                </div>
+              </a>
+
+              <a
+                href="https://linkedin.com/in/asim-rehman0011"
+                target="_blank"
+                class="contact-method"
+              >
+                <div class="contact-icon">
+                  <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>LinkedIn</h4>
+                  <p>linkedin.com/in/asim-rehman0011</p>
+                </div>
+              </a>
+
+              <a
+                href="https://github.com/asimrehman"
+                target="_blank"
+                class="contact-method"
+              >
+                <div class="contact-icon">
+                  <i class="fab fa-github"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>GitHub</h4>
+                  <p>github.com/asimrehman</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form-container">
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Subject"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Your Message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary submit-btn">
+                <i class="fas fa-paper-plane"></i>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-text">
+            <p>&copy; 2024 Asim Rehman. All rights reserved.</p>
+          </div>
+          <div class="footer-social">
+            <a
+              href="https://github.com/asimrehman"
+              target="_blank"
+              class="social-link"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://linkedin.com/in/asim-rehman0011"
+              target="_blank"
+              class="social-link"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:rehmanid0011@gmail.com" class="social-link">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
